@@ -61,8 +61,6 @@ Call to action: Extract the details from this report:
 
 > "Arrived at the scene of a fire at a residential building. Extensive damage to the kitchen and smoke damage throughout. Fire caused by unattended cooking. Neighbors evacuated; no injuries reported."
 
-````
-
 Section names such as “Situation,” “Your role,” or “Task” are optional. When working on a prompt, keep in mind that the attention mechanism in LLMs has limitations. It might concentrate on certain parts of a prompt while overlooking others. A good prompt strikes a balance between detail and brevity. Excessive detail can overwhelm the model, while insufficient detail risks leaving gaps that the model may fill with incorrect assumptions.
 
 I used XML tags for few-shot examples because they clearly define example boundaries and are familiar to LLMs from pretraining on structured data. Furthermore, chat LM models are often finetuned using conversational examples with XML structures. Using XML isn’t mandatory though, but could be helpful.
